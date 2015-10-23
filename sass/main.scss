@@ -1,0 +1,78 @@
+@import "bourbon";
+@import "font-awesome";
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: deepskyblue;
+
+.wrapper {
+  height: 500px;
+  width: 1300px;
+  border: 1px solid yellow;
+}
+
+  header {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bold;
+    color: midnightblue;
+    font-size: 62px;
+    text-align: center;
+  }
+
+  .column {
+    height: 400px;
+    width: 250px;
+    float: left; 
+    margin-right: 25px;
+    border: 1px solid red;   
+  }
+
+  #hero {
+    height: 350px;
+    width: 175px; 
+    border: 1px solid green;
+    display:block;
+    margin:auto;  
+  }
+
+  #canvas {
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    border: 3px solid dodgerblue;
+    border-radius: 20px;
+    align: center;
+
+  }
+
+  #opponent {
+    vertical-align: middle;
+    height: 300px;
+    width: 300px;
+  }
+
+    #penguin {
+    height: 150px;
+    width: 150px;
+    display:block;
+    vertical-align: bottom;
+    border: 1px solid green;
+  }
+
+  #penguin h3 {
+    line-height: 12px;
+  }
+
+  section {
+    border: 1px solid orange;
+  }
+
+  .heroAttack {
+    color: darkblue;
+    background-color: lightskyblue;
+    font-weight: bold;
+    border: 5px solid darkblue;
+    border-radius: 75px;
+  }
+}
